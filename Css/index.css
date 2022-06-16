@@ -1,0 +1,81 @@
+h1,a,button{
+    all : inherit;
+}
+html{
+    all: inherit;
+    height: 100%;
+    width: 100%;
+    font-family: "Segoe UI";
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    all: inherit;
+    background-color: #2B2B2B;
+    display: flex;
+    height: auto;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main_titre{
+    display: flex;
+    font-size: xx-large;
+    justify-content: center;
+    color: white;
+}
+.main_content{
+    color: white;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+table {
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    border: solid #FF6A39;
+    cursor: pointer;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #3C3F41}
+
+th {
+    background-color: #FF6A39;
+    color: white;
+}
+.btn_validation{
+    display: flex;
+    margin: 2px;
+    padding: 2px;
+    flex-direction: column;
+    width: max-content;
+    color: white;
+    background-color: #4CAF50;
+    /*border: solid white;*/
+    color: white;
+    border-radius: 5px;
+    border: 2px solid #4CAF50;
+
+
+
+
+}
+.btn_validation:hover {
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid #582C83;
+    transition-duration: 0.3s;
+
+}
+
